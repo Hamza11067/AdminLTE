@@ -4,12 +4,16 @@ import {
   faThumbsUp,
   faShoppingCart,
   faUsers,
+  // faCross,
+  // faMinus,
+  // faWrench,
+  faTimes,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Dashboard = () => {
   return (
     <div
-      className="container-fluid p-2"
+      className="container-fluid p-2 flaot-end"
       style={{
         backgroundColor: "#454D55",
       }}
@@ -89,6 +93,15 @@ const Dashboard = () => {
               <p className="m-0">CPU Traffic</p>
               <p className="m-0 text-white fw-bold">10%</p>
             </div>
+          </div>
+        </div>
+      </div>
+      {/* monthly recap report */}
+      <div className="row px-2 ">
+        <div className="row bg-dark">
+          <p>Monthly Recap report</p>
+          <div className="">
+            <FontAwesomeIcon icon={faTimes} />
           </div>
         </div>
       </div>

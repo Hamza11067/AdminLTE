@@ -1,4 +1,3 @@
-import AdminLTELogo from "../assets/AdminLTELogo.webp";
 import AlexanderPierce from "../assets/Alexander-Pierce.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -26,12 +25,6 @@ const Sidebar = () => {
   return (
     <>
       <div className="container-fluid p-0 shadow-lg">
-        <div className="row p-1 border-bottom border-light-subtle bg-dark text-white">
-          <div className="gap-2 d-flex align-items-center">
-            <img style={{ width: "35px" }} src={AdminLTELogo} alt="logo" />
-            <p className="fs-6 mt-2 ">AdminLTE 3</p>
-          </div>
-        </div>
         {/* Slider in Siderbar Starts here */}
         <div className="row p-2 border-bottom border-light bg-dark text-white">
           <div className="gap-2 d-flex align-items-center">
@@ -382,7 +375,7 @@ const Sidebar = () => {
                   value="option1"
                 />
                 <label className="form-check-label" htmlFor="inlineRadio1">
-                  Top Navigation
+                  Simple Tables
                 </label>
               </div>
             </li>
@@ -396,7 +389,7 @@ const Sidebar = () => {
                   value="option2"
                 />
                 <label className="form-check-label" htmlFor="inlineRadio2">
-                  Fixed Sidebar
+                  Data Tables
                 </label>
               </div>
             </li>
@@ -410,7 +403,7 @@ const Sidebar = () => {
                   value="option3"
                 />
                 <label className="form-check-label m-0" htmlFor="inlineRadio3">
-                  Boxed
+                  jsGrid
                 </label>
               </div>
             </li>
