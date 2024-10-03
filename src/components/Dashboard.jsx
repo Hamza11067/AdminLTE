@@ -13,12 +13,12 @@ import {
 const Dashboard = () => {
   return (
     <div
-      className="container-fluid p-2 flaot-end"
+      className="container-fluid mt-5 pt-4 p-2 flaot-end"
       style={{
         backgroundColor: "#454D55",
       }}
     >
-      <div className="row p-2">
+      <div className="row">
         <div className="d-flex align-items-center justify-content-between">
           <div className="text-white">
             <h3>Dashboard</h3>
@@ -30,7 +30,7 @@ const Dashboard = () => {
         </div>
       </div>
       {/* four cards are here */}
-      <div className="row px-2 col">
+      <div className="row col">
         <div className="col-md-3 p-2">
           <div className="bg-dark p-2 text-white rounded d-flex align-items-center justify-content-start">
             <FontAwesomeIcon
@@ -97,8 +97,8 @@ const Dashboard = () => {
         </div>
       </div>
       {/* monthly recap report */}
-      <div className="row px-2 ">
-        <div className="row bg-dark">
+      <div className="row">
+        <div className="bg-dark">
           <p>Monthly Recap report</p>
           <div className="">
             <FontAwesomeIcon icon={faTimes} />
