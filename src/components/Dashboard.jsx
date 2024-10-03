@@ -4,9 +4,8 @@ import {
   faThumbsUp,
   faShoppingCart,
   faUsers,
-  // faCross,
-  // faMinus,
-  // faWrench,
+  faMinus,
+  faWrench,
   faTimes,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -98,10 +97,12 @@ const Dashboard = () => {
       </div>
       {/* monthly recap report */}
       <div className="row">
-        <div className="bg-dark">
-          <p>Monthly Recap report</p>
+        <div className="bg-dark py-2 d-flex align-items-center justify-content-between">
+          <p className="m-0">Monthly Recap report</p>
           <div className="">
-            <FontAwesomeIcon icon={faTimes} />
+            <FontAwesomeIcon icon={faMinus} className="px-2 cursor-pointer"/>
+            <FontAwesomeIcon icon={faWrench} className="px-2"/>
+            <FontAwesomeIcon icon={faTimes} className="px-2"/>
           </div>
         </div>
       </div>

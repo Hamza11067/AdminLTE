@@ -13,14 +13,14 @@ html {
   height: 100vh; /*Full height of the viewport */
   overflow-y: auto; /* Adds vertical scroll bar when needed */
   overflow-x: hidden; /* Prevents horizontal scrolling */
-  background-color: #f8f9fa; /* Optional background color */
+  /* background-color: #f8f9fa; Optional background color */
   padding: 15px;
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 
 /* Custom Scrollbar */
 .sidebar::-webkit-scrollbar {
-  width: 8px; /* Makes the scrollbar narrower */
+  width: 6px; /* Makes the scrollbar narrower */
 }
 
 .sidebar::-webkit-scrollbar-thumb {
