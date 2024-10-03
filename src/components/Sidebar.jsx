@@ -821,7 +821,7 @@ const Sidebar = () => {
           </a>
         </div>
         {/* informational */}
-        <div className="row px-2 py-1 bg-dark">
+        <div className="row px-2 py-1 pb-4 bg-dark">
           <a
             className="nav-link px-3 py-2 rounded bg-dark-body text-white d-flex justify-content-between align-items-center"
             href="#"

@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="container-fluid  height-100">
       <div className="row">
-        <div className="position-fixed col-md-2">
+        <div className="col-md-2">
           <Navtab />
         </div>
         <div className="col-md-10 ms-auto p-0 position-fixe float-end height-100 text-white">
@@ -18,7 +18,7 @@ const App = () => {
 
       <div className="row height-100">
         <div
-          className="col-md-2 position-fixed  sidebarcontainer side height-100 sidebar"
+          className="col-md-2 position-fixed pt-0 pb-5 sidebarcontainer side height-100 sidebar"
           style={{ backgroundColor: "#343A40" }}
         >
           <Sidebar />

@@ -10,10 +10,25 @@ html {
 
 .sidebar {
   width: 250px; /* Adjust as needed */
-  height: 100vh;  /*Full height of the viewport */
+  height: 100vh; /*Full height of the viewport */
   overflow-y: auto; /* Adds vertical scroll bar when needed */
   overflow-x: hidden; /* Prevents horizontal scrolling */
   background-color: #f8f9fa; /* Optional background color */
   padding: 15px;
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Custom Scrollbar */
+.sidebar::-webkit-scrollbar {
+  width: 8px; /* Makes the scrollbar narrower */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #4d4d4d; /* Dark grey scrollbar */
+  border-radius: 10px; /* Rounds the scrollbar edges */
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #212529; /* Light grey background */
+  border-radius: 10px;
 }

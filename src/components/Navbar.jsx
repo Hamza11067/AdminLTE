@@ -3,9 +3,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const Navbar = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg position-fixed col-10 bg-black text-white border-bottom"
-      style={{ zIndex: "10" }}
-    >
+      className="navbar navbar-expand-lg position-fixed col-10 bg-black text-white border-bottom">
       <div className="container-fluid">
         <a className="navbar-brand text-white" href="#">
           <i className="bi bi-list" />
