@@ -11,7 +11,7 @@ const App = () => {
         <div className="col-md-2">
           <Navtab />
         </div>
-        <div className="col-md-10 ms-auto p-0 position-fixe float-end height-100 text-white">
+        <div className="col-md-10 ms-auto p-0 float-end height-100 text-white">
           <Navbar />
         </div>
       </div>
